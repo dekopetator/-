@@ -1,0 +1,161 @@
+@font-face {
+    font-family: "Inter";
+    src: url('./fonts/Inter-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url('./fonts/Inter-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url('./fonts/Inter-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Inter', sans-serif;
+     background-size: cover;
+     list-style-type: none;
+     text-decoration: none;
+}
+
+.header {
+    padding: 24px 160px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.content {
+    padding-top: 32px;
+    padding-left: 160px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav {
+    display: flex;
+    
+}
+
+.option {
+    display: flex;
+    padding-left: 50px;
+    background-image: url('./icon/option-icon.svg');
+    background-size: 32px 32px;
+    background-repeat: no-repeat;
+    color: #354153;
+}
+
+.header-profile {
+    display: inline-block;
+    width: 44px;
+    aspect-ratio: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+}
+
+.header-profile:hover {
+    transform: scale(1.2);
+}
+
+.menu-list {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+
+.menu-link{
+    display: inline-flex;
+    align-items: center;
+    column-gap: 7px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1.2px;
+    color: #354153;
+    border: 0.5px solid #EAECF0; 
+    padding: 2px; 
+  }
+
+.menu-link1 {
+    border-radius: 16px 0 0 16px;
+}
+
+  .menu-link:hover {
+    background-color: #F2F4F7;
+  }
+
+  .drop-down-list-section {
+    padding-right: 160px;
+    color: #354153;
+    
+}
+
+.drop-down-list {
+    width: 178px;
+    height: 40px;
+    font-size: 16px;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  max-width: 328px;
+  border: 1px solid #EAECF0;
+  
+}
+
+.card-container {
+    display: flex;
+    justify-content: ;
+    margin: 32px 160px;
+    gap: 32px;
+   
+    
+}
+
+.card-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 24px 16px 24px;
+}
+
+.card-image {
+    padding: 0px 24px 16px 24px;
+}
+
+.card-container-text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 0 24px 0 24px;
+}
+
+.card-text-title {
+    color: #0D1421;
+    font-size: 24px;
+}
+
+.card-text-info {
+    color: #354153;
+    font-size: 18px;
+}
+
+
